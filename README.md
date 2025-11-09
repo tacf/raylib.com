@@ -10,6 +10,21 @@ Ready to learn? Jump to [code examples!](https://www.raylib.com/examples.html)
 
 <br>
 
+contributing/developing
+----------------
+
+Given current browser security measures, opening the files directly may block most functionality.
+To run a local server and *bypass* this ensure you have `make` and `python` intalled  and simply run,
+
+`make run_server`
+
+Alternatively, if you only have `python`, you can also run the command directly.
+
+`python -m http.server 8080`
+
+Now you should be able to visit http://localhost:8080 and test full site functionality
+
+
 social networks
 ----------------
 
